@@ -25,3 +25,7 @@ body {
     flex-grow: 1;
     width: 100%;
 }
+
+.grid-el {
+    border: 2px solid black;
+}
