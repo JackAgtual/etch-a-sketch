@@ -25,3 +25,7 @@ body {
     flex-grow: 1;
     width: 100%;
 }
+
+.grid-el-colored {
+    background-color: rgba(31, 10, 223, 0.596);
+}
