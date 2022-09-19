@@ -30,5 +30,5 @@ for (let row = 0; row < gridSize; row++) {
         child.appendChild(subChild);
     }
 
-    // grid.appendChild(child);
+    grid.appendChild(child);
 }

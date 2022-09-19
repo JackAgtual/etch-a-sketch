@@ -18,14 +18,6 @@ body {
     text-align: center;
     background-color: rgba(204, 204, 204, 0.568);
 }
-/* .grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-    width: 50%;
-    border: 2px solid blue;
-} */
 
 .grid {
     width: 50%;
@@ -44,6 +36,8 @@ body {
     width: 100%;
     height: 100%;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
 }
 .grid-el-colored {
     background-color: rgba(31, 10, 223, 0.596);
