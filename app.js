@@ -1,5 +1,5 @@
 const gridSize = 60;
-const grid = document.querySelector('.grid');
+const grid = document.querySelector('.content');
 
 const changeColorOnHover = node => {
     node.addEventListener('mouseover', () => {
@@ -30,5 +30,5 @@ for (let row = 0; row < gridSize; row++) {
         child.appendChild(subChild);
     }
 
-    grid.appendChild(child);
+    // grid.appendChild(child);
 }

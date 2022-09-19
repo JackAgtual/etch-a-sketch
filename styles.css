@@ -18,14 +18,33 @@ body {
     text-align: center;
     background-color: rgba(204, 204, 204, 0.568);
 }
-.grid {
+/* .grid {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
-    width: 100%;
+    width: 50%;
+    border: 2px solid blue;
+} */
+
+.grid {
+    width: 50%;
+    border: 2px solid blue;
+    position: relative;
 }
 
+.grid::after {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
 .grid-el-colored {
     background-color: rgba(31, 10, 223, 0.596);
 }
