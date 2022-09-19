@@ -19,8 +19,12 @@ body {
     background-color: rgba(204, 204, 204, 0.568);
 }
 
+.spacer {
+    flex-grow: 1;
+}
+
 .grid {
-    width: 50%;
+    width: 90%;
     border: 5px solid black;
     position: relative;
 }
