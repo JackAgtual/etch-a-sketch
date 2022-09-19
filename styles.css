@@ -25,6 +25,7 @@ body {
 
 .grid {
     width: 90%;
+    max-width: 90vh;
     border: 5px solid black;
     position: relative;
 }
