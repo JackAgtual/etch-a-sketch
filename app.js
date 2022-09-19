@@ -1,5 +1,5 @@
 const gridSize = 60;
-const grid = document.querySelector('.grid');
+const grid = document.querySelector('.content');
 
 const changeColorOnHover = node => {
     node.addEventListener('mouseover', () => {
